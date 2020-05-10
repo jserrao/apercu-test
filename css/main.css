@@ -59,8 +59,13 @@ img {
   max-width: 100%;
 }
 
+.static-text {
+  font-family: 'Apercu-Regular', Arial, Helvetica, sans-serif;
+}
+
 .font-switcher {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .button {
@@ -68,7 +73,7 @@ img {
   color: white;
   font-family: 'Apercu-Regular';
   padding: 8px 15px;
-  margin: 0 5px;
+  margin: 5px;
   transition: 0.2s ease-in-out;
 }
 
